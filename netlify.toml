@@ -1,4 +1,6 @@
 
-[build]                             
+[build]
   command = "npm run build -- --with-netlify"
   publish = "dist/public"
+[functions]
+  included_files = ["private/**"]
